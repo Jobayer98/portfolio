@@ -134,7 +134,7 @@ section {
     padding: 80px 140px;
 }
 
-.about-title{
+.h3_title{
     font-size: 28px;
     font-weight: 700;
     line-height: 28px;
@@ -165,4 +165,40 @@ section {
 }
 .details div h4{
     color:#474747;
+}
+
+/* what i do section */
+
+.what_i_do .title_des{
+    padding: 0 50px;
+}
+.what_i_do .what_des{
+     margin-top: 30px;
+     color: #757575;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item {
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    line-height: 26px;
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+
+    border: .5px solid;
+}
+
+.item h4 {
+    margin: 30px 0 20px 0;
 }
