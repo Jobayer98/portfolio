@@ -121,3 +121,48 @@ color: #FD6E0A;
     padding: 12px 24px;
     border-radius: 5px;
 }
+
+/* Style for about section */
+
+section {
+    margin: 100px 120px;
+}
+
+.about {
+    background-color:  #FFF8F3;
+    text-align: center;
+    padding: 80px 140px;
+}
+
+.about-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+
+.about-desc {
+    max-width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+    color: #757575;
+    margin: 30px 0;
+}
+
+.about .details{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+    font-family: 400;
+}
+
+.details div p{
+    color:#757575;
+}
+.details div h4{
+    color:#474747;
+}
